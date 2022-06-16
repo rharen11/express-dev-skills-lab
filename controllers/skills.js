@@ -1,5 +1,7 @@
 function index(req, res){
-    res.send('working')
+    res.render('skills/index', {
+        Skills: Skills
+    })
 }
 
 export{
