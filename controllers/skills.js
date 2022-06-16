@@ -1,6 +1,8 @@
+import { skills } from '../controllers/skills.js'
+
 function index(req, res){
     res.render('skills/index', {
-        Skills: Skills
+        skills: skills
     })
 }
 
