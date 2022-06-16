@@ -2,12 +2,12 @@ import mongoose from "mongoose"
 
 const Schema = mongoose.Schema
 
-const todoSchema = new Schema({
+const skillSchema = new Schema({
   text: String,
-  done: Boolean,
+  ability: Boolean,
 })
 
-const Skill = mongoose.model('Skill', todoSchema)
+const Skill = mongoose.model('Skill', skillSchema)
 
 export {
   Skill
